@@ -1,0 +1,286 @@
+@media (max-width: 1200px)
+	.menu
+		&_item
+			padding-right: 20px
+		&_link
+			font-size: 13px
+	.promo
+		&_header
+			font-size: 50px
+	.advantage
+		&_text
+			width: 60%
+	.mobile
+		&_item
+			width: 300px
+
+@media (max-width: 991px)
+	.menu
+		&_item
+			padding-right: 8px
+		&_link
+			font-size: 10px
+	.subheader
+		&_logo
+			img
+				width: 100%
+		&_oficcial
+			font-size: 12px
+		&_phone
+			font-size: 18px
+		&_btn
+			margin-top: 21px
+			height: 40px
+			width: 100%
+	.promo
+		&_header
+			font-size: 40px
+		&_subheader
+			font-size: 30px
+	.advantage
+		&_item
+			flex-direction: column
+			align-items: center
+		&_text
+			margin-top: 20px
+			width: 100%
+	.mobile
+		min-height: 814px
+		padding: 40px 0 60px 0
+		&_item
+			width: 230px
+			height: 230px
+			padding-top: 30px
+	.possibilities
+		min-height: 800px
+		padding: 40px 0 60px 0
+	.cities
+		min-height: 600px
+		background: url('../img/world_bg.png') center (center / cover) no-repeat
+		&_img
+			display: none
+
+	.footer
+		&_wrapper
+			flex-direction: column
+		&_wrapper > div
+			display: flex
+			width: auto
+			&:nth-child(2)
+				order: 1
+			&:nth-child(1)
+				order: 2
+			&:nth-child(3)
+				order: 3
+		&_icons
+			margin-top: 20px
+		&_store
+			margin-top: 20px
+
+@media (max-width: 767px)
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: -100%
+		width: 50%
+		height: 100vh
+		padding: 20px 15px
+		background-color: rgba(0, 0, 0, .8)
+		transition: 0.6s all
+		&_active
+			left: 0
+		&_item
+			padding-right: 0
+			border: none
+			margin: 10px 0
+		&_link
+			font-size: 20px
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		height: 12px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: #fff
+			margin-bottom: 2px
+			transition: 0.5s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+
+	.xs-hidden
+		display: none
+	.xs-visible
+		display: block
+
+	.title
+		margin-top: 20px
+	.subtitle
+		margin-top: 10px
+
+	.subheader
+		&_phone
+			display: block
+			margin-top: 10px
+			font-size: 16px
+			text-align: center
+		&_btn
+			display: block
+			width: 200px
+			height: 40px
+			margin: 0 auto
+			margin-top: 10px
+			font-size: 16px
+			&:hover
+				background: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+
+	.promo
+		&_header
+			line-height: 45px
+		&_btn
+			&:hover
+				background: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+
+	.advantage
+		&_text
+			width: 80%
+
+	.mobile
+		padding: 28px 0 43px 0
+		&_item
+			width: 250px
+			height: 250px
+			&_3
+				margin-top: 20px
+
+	.possibilities
+		min-height: 700px
+		padding: 28px 0 43px 0
+
+	.require
+		padding: 28px 0 43px 0
+		&_block
+			margin: 30px 0 0 0
+			ul
+				margin-bottom: 0rem
+
+@media (max-width: 575px)
+	nav
+		height: 30px
+	header
+		height: 30px
+	.subheader
+		height: 60px
+		top: -20px
+		&_oficcial
+			display: none
+		&_logo
+			margin-top: 16px
+		&_phone
+			font-size: 12px
+			text-align: center
+			margin-top: 11px
+		&_btn
+			width: 110px
+			height: 22px
+			font-size: 10px
+			margin-top: 6px
+	.promo
+		min-height: 400px
+		padding: 143px 0 35px 0
+		&_descr
+			display: none
+		&_header
+			font-size: 30px
+			padding: 0 24px
+			line-height: 35px
+		&_subheader
+			font-size: 20px
+			margin-top: 30px
+			padding: 0 10px
+			line-height: 30px
+		&_btn
+			width: 210px
+			height: 50px
+			margin-top: 72px
+
+	.menu
+		width: 85%
+		&_item
+			width: 100%
+			text-align: center
+			padding: 5px 0
+		&_link
+			display: block
+
+	.advantage
+		padding: 22px 0 36px 0
+		&_item
+			margin-top: 24px
+		&_round
+			width: 100px
+			height: 100px
+		&_text
+			width: 100%
+			margin-top: 24px
+		&_header
+			font-size: 16px
+	.title
+		font-size: 16px
+		margin-top: 15px
+
+	.mobile
+		&_item
+			margin-top: 30px
+			&_1
+				margin-top: 0px
+
+	.possibilities
+		min-height: 393px
+		padding: 24px 0 31px 0
+		background: #070716
+		.title
+			display: none
+		.subtitle
+			display: none
+		&_img
+			margin-top: 34px
+		&_text
+			margin-top: 24px
+			color: #fff
+
+	.require
+		padding: 22px 0 30px 0
+		&_list
+			margin-top: 5px
+			padding-left: 35px
+			li
+				margin-bottom: 5px
+
+	.cities
+		min-height: 360px
+		padding: 26px 0 30px 0
+		&_link
+			bottom: 30px
+
+	.footer
+		&_divider
+			margin-top: 24px
+		&_wrapper
+			padding: 21px 18px 30px 18px
+		
